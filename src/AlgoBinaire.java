@@ -1,3 +1,5 @@
+package src;
+
 // 2 sections tableau
 public class AlgoBinaire {
 

@@ -1,3 +1,5 @@
+package src;
+
 // Itératif
 public class AlgoLineaire {
 

@@ -1,15 +1,12 @@
 // Itératif
 public class AlgoLineaire {
-    int[] tab;
-    int n;
-    int x;
-    public AlgoLineaire(int[] tab, int n, int x) {
-        this.tab = tab;
-        this.n = n;
-        this.x = x;
-    }
 
-    public int algo(){
+    public int algo(int[] tab, int n, int val){
+        for (int i = 0; i < n; i++) {
+            if(tab[i] == val){
+                return i;
+            }
+        }
         return -1;
     }
 }

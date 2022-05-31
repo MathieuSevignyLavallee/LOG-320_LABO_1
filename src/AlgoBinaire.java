@@ -21,7 +21,7 @@ public class AlgoBinaire {
             return mid;
         }
         if(tab[mid] > val){
-            return new AlgoBinaire().helper(tab,0, mid-1, val);
+            return new AlgoBinaire().helper(tab,low, mid-1, val);
         }
         return new AlgoBinaire().helper(tab,mid+1, high, val);
     }
